@@ -185,3 +185,137 @@ h3{
     z-index: 10;
     line-height: 50px;
 }
+
+@media screen and (max-width: 1000px) {
+
+    h1 {
+            margin-right: 300px;
+    }
+ 
+    .aboutMe {
+            width: 450px;
+            height: auto;
+    }
+ 
+     .container {
+         width: 980px;
+         padding-left:50px;
+     }
+ 
+     }
+ 
+     .topnav {
+         padding-left:30px;
+         
+     }
+ 
+     .wrapper {
+     width: 980px;
+   }
+ 
+       /*.itemone,
+     .itemtwo,
+     .itemthree,
+     .itemfour,
+     .itemfive {
+     width: 85%;
+     float: left;
+     position: relative;
+     margin: 10px; 
+     /*need a clearix to extend the box*/
+     /*}*/
+ 
+     .column {
+         width: 200px;
+     }
+ 
+     p {
+         width: 200px;
+     }
+ 
+     .aboutMe {
+         width: 420px;
+     }
+ 
+ 
+ 
+ @media screen and (max-width: 768px) {
+     
+ 
+     .wrapper {
+         width: 768;
+     }
+ 
+     .container {
+         width: 768px;
+         padding-left:50px;
+     }
+ 
+     .aboutMe {
+         float: left;
+         width: 200px;
+     }
+ 
+     .column {
+         float: left;
+         position: relative;
+         margin-left: 34px;
+         width: 445px;
+     }
+ 
+     .connectWithMe {
+         width: 445px;
+     }
+ 
+ }
+ 
+ @media screen and (max-width: 640px) {
+ 
+ .wrapper {
+         width: 640
+     }
+ 
+.container {
+         width: 640px;
+         padding-left:50px;
+     }
+ 
+     .aboutMe {
+         float: left;
+         width: 200px;
+     }
+ 
+     .sidebar {
+         float: left;
+         position: relative;
+         margin-left: 34px;
+         width: 445px;
+     }
+ 
+     .connectWithMe {
+         width: 445px;
+     }
+ 
+ 
+     h1 {
+         font-family: 'Georgia', Times, Times New Roman, serif;
+         color: #4aaaa5;
+     }
+ 
+     .myName {
+         position: static;
+         height: 80px;
+         width: 640px;
+         border: solid;
+         border-color: #dddddd;
+         color: white;
+         background-color: #4aaaa5;
+         text-align: center;
+         padding-top: 15px;
+         padding-left: 25px;
+     }
+ 
+     .topnav {
+         padding-left: 0px;
+     }
+ }
